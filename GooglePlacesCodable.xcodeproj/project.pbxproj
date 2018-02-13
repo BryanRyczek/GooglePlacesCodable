@@ -12,6 +12,8 @@
 		93333EFF20338D2200BF19A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93333EFD20338D2200BF19A9 /* Main.storyboard */; };
 		93333F0120338D2200BF19A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93333F0020338D2200BF19A9 /* Assets.xcassets */; };
 		93333F0420338D2200BF19A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93333F0220338D2200BF19A9 /* LaunchScreen.storyboard */; };
+		93333F0C20338F8400BF19A9 /* GoogleClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93333F0B20338F8400BF19A9 /* GoogleClient.swift */; };
+		93333F0E20338F8E00BF19A9 /* ResponseModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93333F0D20338F8E00BF19A9 /* ResponseModels.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		93333F0020338D2200BF19A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93333F0320338D2200BF19A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		93333F0520338D2200BF19A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93333F0B20338F8400BF19A9 /* GoogleClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleClient.swift; sourceTree = "<group>"; };
+		93333F0D20338F8E00BF19A9 /* ResponseModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseModels.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				93333EF920338D2200BF19A9 /* AppDelegate.swift */,
 				93333EFB20338D2200BF19A9 /* ViewController.swift */,
+				93333F0B20338F8400BF19A9 /* GoogleClient.swift */,
+				93333F0D20338F8E00BF19A9 /* ResponseModels.swift */,
 				93333EFD20338D2200BF19A9 /* Main.storyboard */,
 				93333F0020338D2200BF19A9 /* Assets.xcassets */,
 				93333F0220338D2200BF19A9 /* LaunchScreen.storyboard */,
@@ -137,6 +143,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				93333EFC20338D2200BF19A9 /* ViewController.swift in Sources */,
+				93333F0C20338F8400BF19A9 /* GoogleClient.swift in Sources */,
+				93333F0E20338F8E00BF19A9 /* ResponseModels.swift in Sources */,
 				93333EFA20338D2200BF19A9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
